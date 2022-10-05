@@ -24,7 +24,7 @@ class Home extends StatelessWidget {
               'clicks: ${controller.count}',
             )),
             ElevatedButton(
-              child: Text('Next Route-1005-12'),
+              child: Text('Next Route-1005-15'),
               onPressed: () {
                 Get.to(Second());
                 /*
