@@ -10,7 +10,7 @@ class Home extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(title: Text("counter-1005-5")),
+      appBar: AppBar(title: Text("counter-1005-6")),
       body: Center(
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
@@ -24,7 +24,7 @@ class Home extends StatelessWidget {
               'clicks: ${controller.count}',
             )),
             ElevatedButton(
-              child: Text('Next Route-1005-5'),
+              child: Text('Next Route-1005-6'),
               onPressed: () {
                 Get.to(Second());
                 /*
